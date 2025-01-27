@@ -1,0 +1,51 @@
+{
+    "menu": {
+        "item2": "About me",
+        "item3": "Skills",
+        "item4": "Training",
+        "item5": "Projects",
+        "item6": "Contact"
+    },
+
+    "home": {
+        "home_text-1": "Hi! I'm",
+        "home_text-3": "student Software Developer",
+        "parrafo-info": "Software and programming student. As someone who is just learning, I focus on creating projects with attractive and easy-to-use designs, always seeking to provide a fluid and pleasant experience for the user.",
+        "cv_button": "Download CV",
+        "contact_button": "Contact"
+    },
+
+    "sobre-mi": {
+        "title": "About me",
+        "texto_sobreMi": "I am an undergraduate Software Engineering student and a self-taught programmer, focused on building a solid foundation in software development. <br>I aspire to be part of the technological world, gain practical experience and continue to develop professionally in the field of software development. <br><br>I am committed to constantly learning and improving skills such as teamwork, effective communication and problem solving, with the goal of overcoming challenges and contributing to innovative projects."
+    },
+
+    "habilidades": {
+        "title": "Skills"
+    },
+
+    "formacion": {
+        "title": "Training",
+        "formacion1": "Software Engineering",
+        "tiempo-formacion1": "2025 - In progress",
+        "formacion2": "Full-Stack Developer",
+        "tiempo-formacion2": "2022 - In progress",
+        "formacion3": "Accounting for Commercial and Financial Transactions"
+    },
+
+    "proyectos": {
+        "title": "Projects",
+        "title-proyecto1": "Sales Website",
+        "info-proyecto1": "Peritech's website was designed with a focus on usability and aesthetics, seeking to provide an intuitive and enjoyable shopping experience. I used a clean and functional design, optimized to facilitate navigation between products.",
+        "title-proyecto2": "Portfolio",
+        "info-proyecto2": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background.",
+        "title-proyecto3": "Text Encryptor",
+        "info-proyecto3": "An encryptor where the user can type a text and the encryptor encrypts it with pre-programmed keys. The encryptor can also decrypt the text."
+    },
+
+    "contacto": {
+        "title": "Contact",
+        "text": "Complete the form below and I will contact you as soon as possible.",
+        "btn-enviar": "Send"
+    }
+}

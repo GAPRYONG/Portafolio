@@ -1,0 +1,51 @@
+{
+    "menu": {
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+    },
+
+    "home": {
+        "home_text-1": "Hola! Soy",
+        "home_text-3": "Studiante de Desarrollode Software",
+        "parrafo-info": "Estudiante de Software y programación.Como alguien que recién está aprendiendo, me enfoco en crear proyectos con diseños atractivos y fáciles de usar, buscando siempre brindar una experiencia fluida y agradable para el usuario.",
+        "cv_button": "Descargar CV",
+        "contact_button": "Contacto"
+    },
+
+    "sobre-mi": {
+        "title": "Sobre mí",
+        "texto_sobreMi": "Soy estudiante del pregrado de Ingeniería de Software y aprendiz autodidacta en programación, enfocado en construir una base sólida en el desarrollo de software.<br>Aspiro a formar parte del mundo tecnológico, adquirir experiencia práctica y seguir desarrollándome profesionalmente en el ámbito del desarrollo de software.<br><br>Estoy comprometido a aprender y mejorar constantemente en habilidades como el trabajo en equipo, la comunicación efectiva y la resolución de problemas, con el objetivo de superar desafíos y contribuir a proyectos innovadores."
+    },
+
+    "habilidades": {
+        "title": "Habilidades"
+    },
+
+    "formacion": {
+        "title": "Formación",
+        "formacion1": "Ingeriería de Software",
+        "tiempo-formacion1": "2025 - En curso",
+        "formacion2": "Desarrolladora Full-Stack",
+        "tiempo-formacion2": "2022 - En curso",
+        "formacion3": "Contabilización de Operaciones Comerciales y Financieras"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        "title-proyecto1": "Web de Ventas",
+        "info-proyecto1": "La web de Peritech fue diseñada con un enfoque en la usabilidad y la estética, buscando proporcionar una experiencia de compra intuitiva y agradable. Utilicé un diseño limpio y funcional, optimizado para facilitar la navegación entre productos.",
+        "title-proyecto2": "Portafolio",
+        "info-proyecto2": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
+        "title-proyecto3": "Encriptador de Texto",
+        "info-proyecto3": "Un ecriptador donde el usuario puede escribir un texto y el encriptador lo codifica con llaves ya programadas. El encriptador también permite desencriptar el texto."
+    },
+
+    "contacto": {
+        "title": "Contacto",
+        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
+        "btn-enviar": "Enviar"
+    }
+}
