@@ -7,7 +7,7 @@
 :root {
     --white: #FFFFFF;
     --light-grey: #D9D9D9;
-    --beaver: #A78976;
+    --beaver: #1F91DC;
     --black: #141414;
     --eerie-black: #1F1F1F;
     --jet: #292929;
@@ -734,7 +734,7 @@ img.logo-sena {
 
 .container--contacto {
     width: 100%;
-    background-color: var(--beaver);
+    background-color: #776254;
     border-radius: 24px;
     padding: 3rem;
     position: relative;
