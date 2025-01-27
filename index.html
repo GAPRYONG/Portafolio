@@ -289,5 +289,58 @@
 
     <!-- Mi script -->
     <script src="./script.js"></script>
+
+    <!-- Mi Bot -->
+     <!-- Botón flotante -->
+<div id="chatbot-icon">
+    <img src="./assets/images/bot.png" alt="Chatbot" onclick="toggleChatbot()">
+  </div>
+  
+  <!-- Iframe del chatbot -->
+  <div id="chatbot-container" style="display: none;">
+    <iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/0164d382-b562-4e83-919b-fb11ae98d606">
+</iframe>
+  </div>
+  
+  <!-- Estilos para el ícono flotante -->
+  <style>
+    #chatbot-icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      cursor: pointer;
+      z-index: 9999;
+    }
+  
+    #chatbot-container {
+      position: fixed;
+      bottom: 70px;
+      right: 20px;
+      z-index: 9998;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+  
+  <!-- Script para mostrar y ocultar el chatbot -->
+  <script>
+    function toggleChatbot() {
+      const chatbot = document.getElementById("chatbot-container");
+      const icon = document.getElementById("chatbot-icon");
+      if (chatbot.style.display === "none") {
+        chatbot.style.display = "block";
+        icon.style.display = "none";
+      } else {
+        chatbot.style.display = "none";
+        icon.style.display = "block";
+      }
+    }
+  </script>
+  
 </body>
 </html>
