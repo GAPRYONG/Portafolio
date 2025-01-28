@@ -291,12 +291,12 @@
     <script src="./script.js"></script>
 
     <!-- Mi Bot -->
-     <!-- Botón flotante -->
-<div id="chatbot-icon">
-    <img src="./assets/images/bot.png" alt="Chatbot" onclick="toggleChatbot()">
+<!-- Botón flotante -->
+<div id="chatbot-icon" onclick="toggleChatbot()">
+    <img src="./assets/images/bot.png" alt="Chatbot" style="width: 60px; height: 60px;">
   </div>
   
-  <!-- Iframe del chatbot -->
+  <!-- Contenedor del chatbot -->
   <div id="chatbot-container" style="display: none;">
     <iframe
     allow="microphone;"
@@ -306,11 +306,11 @@
 </iframe>
   </div>
   
-  <!-- Estilos para el ícono flotante -->
+  <!-- Estilos para el ícono flotante y el chatbot -->
   <style>
     #chatbot-icon {
       position: fixed;
-      bottom: 20px;
+      bottom: 20px; /* Aumenta la distancia desde la parte inferior */
       right: 20px;
       cursor: pointer;
       z-index: 9999;
@@ -318,26 +318,26 @@
   
     #chatbot-container {
       position: fixed;
-      bottom: 70px;
+      bottom: 80px;
       right: 20px;
       z-index: 9998;
       border: 2px solid #ccc;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
     }
   </style>
   
-  <!-- Script para mostrar y ocultar el chatbot -->
+  <!-- Script actualizado para alternar la visibilidad -->
   <script>
     function toggleChatbot() {
       const chatbot = document.getElementById("chatbot-container");
       const icon = document.getElementById("chatbot-icon");
-      if (chatbot.style.display === "none") {
-        chatbot.style.display = "block";
-        icon.style.display = "none";
+  
+      if (chatbot.style.display === "none" || chatbot.style.display === "") {
+        chatbot.style.display = "block"; // Muestra el chatbot
       } else {
-        chatbot.style.display = "none";
-        icon.style.display = "block";
+        chatbot.style.display = "none"; // Oculta el chatbot
       }
     }
   </script>
